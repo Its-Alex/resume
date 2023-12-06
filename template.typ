@@ -1,22 +1,10 @@
-// This function gets your whole document as its `body`
-// and formats it as a simple letter.
-#let letter(
-  // The letter's sender, which is display at the top of the page.
-  sender: none,
-
-  // The letter's recipient, which is displayed close to the top.
-  recipient: none,
-
-  // The date, displayed to the right.
-  date: none,
-
-  // The subject line.
-  subject: none,
-
-  // The name with which the letter closes.
+#let resume(
+  profil_picture: none,
   name: none,
-
-  // The letter's content.
+  position: none,
+  location: none,
+  email: none,
+  external_links: none,
   body
 ) = {
   // Configure page and text properties.
@@ -24,40 +12,35 @@
     margin: (top: 2cm),
     fill: rgb("eee")
   )
-  set text(font: "Lato")
+  
+  let imagePattern = pattern(
+    size: (300pt, 300pt),
+    image(
+      profil_picture,
+      width: 100%,
+      height: 100%
+    )
+  )
 
-  // Display sender at top of page. If there's no sender
-  // add some hidden text to keep the same spacing.
-  text(9pt, if sender == none {
-    hide("a")
-  } else {
-    sender
-  })
+  circle(
+    width: 10pt,
+    fill: imagePattern
+  )
 
-  v(1.8cm)
+  block[
+    #text(weight: "extrabold", size: 22pt)[
+      #name
+    ]
 
-  // Display recipient.
-  recipient
+    #position
 
-  v(0.5cm)
+    #location
 
-  // Display date. If there's no date add some hidden
-  // text to keep the same spacing.
-  align(right, if date != none {
-    date
-  } else {
-    hide("a")
-  })
+    #email
 
-  v(2cm)
+    #external_links
+  ]
 
-  // Add the subject line, if any.
-  if subject != none {
-    pad(right: 10%, strong(subject))
-  }
 
-  // Add body and name.
   body
-  v(1.25cm)
-  name
 }

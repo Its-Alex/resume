@@ -1,24 +1,23 @@
 #import "template.typ": *
-#show: letter.with(
-  sender: [
-    Jane Smith, Universal Exports, 1 Heavy Plaza, Morristown, NJ 07964
+#set text(font: "Lato")
+
+#show: resume.with(
+  profil_picture: "profil-picture.jpg",
+  name: "Alexandre Marre",
+  position: "Fullstack / Devops - Freelance",
+  location: "Paris, 75011, France",
+  email: [
+    #link("pro.alexandre.marre@gmail.com")
   ],
-  recipient: [
-    Mr. John Doe \
-    Acme Corp. \
-    123 Glennwood Ave \
-    Quarto Creek, VA 22438
-  ],
-  date: [Morristown, June 9th, 2023],
-  subject: [Revision of our Producrement Contract],
-  name: [Jane Smith \ Regional Director],
+  external_links: [
+    #block[
+      #link("https://www.linkedin.com/in/its-alex/")[
+        Linkedin
+      ]
+
+      #link("https://github.com/Its-Alex")[
+        Github
+      ]
+    ]
+  ]
 )
-
-Dear Joe,
-
-+ test
-+ test
-
-#lorem(99)
-
-Best,
