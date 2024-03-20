@@ -2,13 +2,18 @@
 
 Repository to create and build to PDF my resume.
 
+This project is currently a draft. Please don't mind it or try it at your risk.
+
 ## Requirements
 
-- [`docker`](https://www.docker.com/)
+- [`mise`](https://mise.jdx.dev/)
 - [`direnv`](https://direnv.net/)
 
-You can directly use `typst` command inside this repository, it will use
-a docker versionned version.
+```sh
+$ mise plugins install typst https://github.com/stephane-klein/asdf-typst
+$ mise install
+$ direnv allow
+```
 
 ## Getting started
 
