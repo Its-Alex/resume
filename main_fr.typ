@@ -11,6 +11,9 @@
 
 #set page(margin: (x: 0pt, y: 0pt))
 #set text(font: "Manjari", fill: rgb("3F3E40"))
+#show link: link => {
+  text(weight: 600)[#underline()[#link]]
+}
 
 #show: resume_template.with(
   profil_picture: "profil-picture.png",
