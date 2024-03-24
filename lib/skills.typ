@@ -2,8 +2,13 @@
 
 #let skills(title, skills) = [
   #customTitle(title)
-  #for skill in skills [
-    #text(weight: 600)[#skill.name] \
-    #text()[#skill.description] \ \
-  ]
+  #grid(
+    columns: (100%),
+    gutter: 0pt,
+    row-gutter: 1.5em,
+    ..skills.map((skill) => [
+      #text(weight: 600)[#skill.name] \
+      #text()[#skill.description]
+    ])
+  )
 ]
