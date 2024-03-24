@@ -22,7 +22,7 @@
           ]
         }
       )
-      #text()[#volunteeringItem.description]
+      #eval(volunteeringItem.description, mode: "markup")
 
       #if type(volunteeringItem.link) == str [
         #link(volunteeringItem.link)[#volunteeringItem.link] \

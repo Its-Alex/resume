@@ -28,7 +28,7 @@
           ]
         }
       )
-      #text()[#experience.description]
+      #text()[#eval(experience.description, mode: "markup")]
 
       #link(experience.link)[#experience.link] \
     ]

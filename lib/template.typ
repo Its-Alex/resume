@@ -78,7 +78,7 @@
             fill: rgb("F3EFF6"),
             {
               text()[
-                #description
+                #eval(description, mode: "markup")
               ]
             }
           )
