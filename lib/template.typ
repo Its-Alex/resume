@@ -37,6 +37,7 @@
   languages: none,
   interests: none,
   experiences: none,
+  education: none,
   body
 ) = {
   block(
@@ -84,6 +85,7 @@
             fill: rgb("FCF8FF"),
             {
               experiences
+              education
             }
           )
         }

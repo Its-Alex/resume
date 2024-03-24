@@ -1,7 +1,7 @@
-#let experiences(title, experiences) = [
+#let education(title, education) = [
   #text(fill: rgb("BCBABF"), weight: 600)[#title]
   #line(stroke: (1pt + rgb("BCBABF")), length: 70%)
-  #for experience in experiences {
+  #for educationItem in education {
     [
       #grid(
         columns: (40%, 60%),
@@ -11,22 +11,21 @@
             columns: 100%,
             gutter: 5pt,
             {
-              text(weight: 600)[#experience.name]
-            },
-            {
-              text(weight: 400)[#experience.position]
+              text(weight: 600)[#educationItem.name]
             }
           )
         },
         {
           grid.cell(align: right)[
-            #text(weight: 400, rgb("BCBABF"))[(#experience.dates)]
+            #text(weight: 400, rgb("BCBABF"))[(#educationItem.dates)]
           ]
         }
       )
-      #text()[#experience.description]
+      #text()[#educationItem.description]
 
-      #link(experience.link)[#experience.link] \ \
+      #if type(educationItem.link) == str [
+        #link(educationItem.link)[#educationItem.link] \
+      ]
     ]
   }
 ]
