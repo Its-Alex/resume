@@ -1,6 +1,7 @@
+#import "components/title.typ": customTitle
+
 #let education(title, education) = [
-  #text(fill: rgb("BCBABF"), weight: 600)[#title]
-  #line(stroke: (1pt + rgb("BCBABF")), length: 70%)
+  #customTitle(title)
   #for educationItem in education {
     [
       #grid(

@@ -1,6 +1,10 @@
-#let experiences(title, experiences) = [
-  #text(fill: rgb("BCBABF"), weight: 600)[#title]
-  #line(stroke: (1pt + rgb("BCBABF")), length: 70%)
+#import "components/title.typ": customTitle
+
+#let experiences(
+  title,
+  experiences
+) = [
+  #customTitle(title)
   #for experience in experiences {
     [
       #grid(
@@ -26,7 +30,7 @@
       )
       #text()[#experience.description]
 
-      #link(experience.link)[#experience.link] \ \
+      #link(experience.link)[#experience.link] \
     ]
   }
 ]

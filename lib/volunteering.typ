@@ -1,6 +1,7 @@
+#import "components/title.typ": customTitle
+
 #let volunteering(title, volunteering) = [
-  #text(fill: rgb("BCBABF"), weight: 600)[#title]
-  #line(stroke: (1pt + rgb("BCBABF")), length: 70%)
+  #customTitle(title)
   #for volunteeringItem in volunteering {
     [
       #grid(
