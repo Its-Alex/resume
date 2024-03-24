@@ -3,7 +3,7 @@
 #let education(title, education) = [
   #customTitle(title)
   #for educationItem in education {
-    [
+    block(breakable: false)[
       #grid(
         columns: (40%, 60%),
         gutter: 0pt,

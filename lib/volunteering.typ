@@ -3,7 +3,7 @@
 #let volunteering(title, volunteering) = [
   #customTitle(title)
   #for volunteeringItem in volunteering {
-    [
+    block(breakable: false)[
       #grid(
         columns: (40%, 60%),
         gutter: 0pt,

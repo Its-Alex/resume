@@ -6,7 +6,7 @@
 ) = [
   #customTitle(title)
   #for experience in experiences {
-    [
+    block(breakable: false)[
       #grid(
         columns: (40%, 60%),
         gutter: 0pt,
