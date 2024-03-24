@@ -22,7 +22,7 @@
                 text(weight: 600)[#experience.name]
               },
               {
-                text(weight: 400)[#experience.position]
+                text(weight: 400, fill: rgb("7D7C80"))[#experience.position]
               }
             )
           },
