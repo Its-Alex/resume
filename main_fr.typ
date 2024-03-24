@@ -5,6 +5,7 @@
 #import "lib/interests.typ": interests
 #import "lib/experiences.typ": experiences
 #import "lib/education.typ": education
+#import "lib/volunteering.typ": volunteering
 
 #let resume = yaml("fr.yaml")
 
@@ -21,4 +22,5 @@
   interests: interests(resume.translations.interests, resume.interests),
   experiences: experiences(resume.translations.experiences, resume.experiences),
   education: education(resume.translations.education, resume.education),
+  volunteering: volunteering(resume.translations.volunteering, resume.volunteering),
 )

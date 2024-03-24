@@ -38,6 +38,7 @@
   interests: none,
   experiences: none,
   education: none,
+  volunteering: none,
   body
 ) = {
   block(
@@ -86,6 +87,7 @@
             {
               experiences
               education
+              volunteering
             }
           )
         }
