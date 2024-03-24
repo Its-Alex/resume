@@ -35,9 +35,9 @@ skills:
   - name: Database
     description: PostgreSQL, MariaDB, MongoDB, Redis
   - name: DevOps
-    description: ansible, terraform, kubernetes, github actions, gitlab-CI, AWS, scaleway, vagrant
+    description: Ansible, Terraform, Kubernetes, Github actions, Gitlab-CI, AWS, Scaleway, Vagrant
   - name: Tools
-    description: git, asdf, direnv, mise
+    description: Git, asdf, Direnv, mise
 languages:
   - name: Français
     level: Langue maternelle
