@@ -21,6 +21,12 @@ To compile resumes, you can use:
 $ ./scripts/compile.sh
 ```
 
+You can watch them too:
+
+```bash
+$ ./scripts/watch.sh
+```
+
 All datas are based from a `yaml` file, for example for the resume in french 
 [fr.yaml](/fr.yaml).
 
