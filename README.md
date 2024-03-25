@@ -1,8 +1,6 @@
 # Resume
 
-Repository to create and build to PDF my resume.
-
-This project is currently a draft. Please don't mind it or try it at your risk.
+Repository to create and build a PDF of my resume.
 
 ## Requirements
 
@@ -22,6 +20,11 @@ To compile resumes, you can use:
 ```bash
 $ ./scripts/compile.sh
 ```
+
+All datas are based from a `yaml` file, for example for the resume in french 
+[fr.yaml](/fr.yaml).
+
+For now only `french` resume is available.
 
 ## License
 
