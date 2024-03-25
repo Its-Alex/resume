@@ -2,6 +2,8 @@
 
 Repository to create and build a PDF of my resume.
 
+You can see the current version in [`lastest release`](https://github.com/Its-Alex/resume/releases/tag/latest).
+
 ## Requirements
 
 - [`mise`](https://mise.jdx.dev/)
