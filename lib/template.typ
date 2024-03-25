@@ -3,7 +3,7 @@
   body
 ) = {
   block(
-    inset: (x: 12pt, y: 14pt),
+    inset: (x: 10pt, y: 14pt),
     outset: (x: 0pt, y: 0pt),
     above: 0pt,
     below: 0pt,
@@ -17,7 +17,7 @@
   body
 ) = {
   block(
-    inset: (x: 12pt, y: 14pt),
+    inset: (x: 10pt, y: 14pt),
     outset: (x: 0pt, y: 0pt),
     above: 0pt,
     below: 0pt,
