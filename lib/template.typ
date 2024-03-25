@@ -55,7 +55,7 @@
               block(
                 {
                   image(
-                    "../" + profil_picture,
+                    "../assets/" + profil_picture,
                     width: 100pt,
                     height: 100pt,
                   )
