@@ -7,7 +7,7 @@
 #import "lib/education.typ": education
 #import "lib/volunteering.typ": volunteering
 
-#let resume = yaml("fr.yaml")
+#let resume = yaml("datas/fr.yaml")
 
 #set page(margin: (x: 0pt, y: 0pt))
 #set text(font: "Manjari", fill: rgb("3F3E40"))
