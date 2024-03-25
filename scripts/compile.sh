@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 set -e
 
-typst compile cv_fr.typ cv_fr.pdf
+cd "$(dirname "$0")/../"
+
+typst compile --font-path fonts cv_fr.typ cv_fr.pdf
