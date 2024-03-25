@@ -6,7 +6,7 @@
   #link(url)[
     #grid(
       inset: (x: 0pt, y: 0pt),
-      columns: (10pt, 100% - 10pt),
+      columns: 2,
       align: horizon,
       gutter: 4pt,
       {
