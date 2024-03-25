@@ -1,0 +1,122 @@
+translations:
+  skills: SKILLS
+  languages: LANGUAGES
+  interests: INTERESTS
+  experiences: WORK EXPERIENCES
+  education: EDUCATION
+  volunteering: VOLUNTEERING
+profile:
+  name: Alexandre Marre
+  position: Fullstack/DevOps Freelance
+  address: Paris, 75011, France
+  birthday: August 03, 1997
+  links:
+    - name: pro.alexandre.marre@gmail.com
+      url: mailto:pro.alexandre.marre@gmail.com
+      icon: envelope-at-fill.svg
+    - name: itsalex.fr
+      url: https://itsalex.fr
+      icon: globe2.svg
+    - name: Linkedin
+      url: https://www.linkedin.com/in/its-alex/
+      icon: linkedin.svg
+    - name: Github
+      url: https://github.com/Its-Alex
+      icon: github.svg
+    - name: Gitlab
+      url: https://gitlab.com/ItsAlex
+      icon: gitlab.svg
+description: |
+  I am Alexandre Marre, a computer enthusiast since childhood. I started learning C at home when I was sixteen years old. Quickly, I developed a real love for this field and chose to deepen my knowledge at school. This led me to a preparatory class and the 42 school. \
+  I am a fervent supporter of open source and strive to contribute and help projects on Github or other platforms whenever possible. I am curious and love to learn and discover new things, which makes me a Jack-of-all-trades. I am used to working with agile methods and respect the KISS and YAGNI principles.
+skills:
+  - name: Frontend
+    description: Javascript, Typescript, React, Svelte, CSS, HTML
+  - name: Backend
+    description: NodeJS, Golang, Python,  Bash, gRPC, GraphQL
+  - name: Database
+    description: PostgreSQL, MariaDB, MongoDB, Redis
+  - name: DevOps
+    description: Ansible, Terraform, Kubernetes, Github actions, Gitlab-CI, AWS, Scaleway, Vagrant, Tanka, Helm
+  - name: Tools
+    description: Git, asdf, Direnv, mise
+languages:
+  - name: French
+    level: Native
+  - name: English
+    level: Fluent
+interests:
+  - Basket
+  - Climbing
+  - Gaming
+experiences:
+  - name: XXII
+    position: DevOps developper
+    dates: May 02, 2023 - ...
+    description: |
+      Management and maintainability of XXII deployment:
+      - Implementation of CI/CD (Gitlab-CI, ArgoCD, bash)
+      - Establishment of coding best practices
+      - Implementation and maintenance of monitoring tools (Grafana, Loki, Pyroscope, eBPF)
+      - Developing and maintaining the Kubernetes stack (k0s, helm, tanka, golang)
+      - Developing and maintaining a Linux distribution for automatic deployment
+      - Enabling on-premise deployment in disconnected internet environments.
+    link: https://www.xxii.fr/
+  - name: Spacefill
+    position: Senior fullstack developper
+    dates: September 30, 2019 - March 31, 2023
+    description: |
+      Design, management, and maintainability of Spacefill:
+      - Create and maintain onboarding process to allow developer to be ready in one or two days
+      - Create issues with detailed specifications that can be executed by anyone
+      - Development of features (Javascript, HTML, CSS, Python, Bash, React, PL/pgSQL, Docker, Ansible, Terraform, Gitlab-CI)
+      - Develop and maintain the developer's environment (monorepo, versioning of dependencies with asdf (or rtx) and Direnv, setup of local VMs)
+      - Develop and maintain CI (build and deployment of service, versioning of services, automatic deployment, CI/CD) with Gitlab-CI and bare-metal servers
+      - Develop and maintain docker images (multi-arch build across servers in CI, versioning)
+      - Develop and maintain services (databases, migrations, web monorepo in JS with esbuild)
+      - Develop and maintain unit tests (pgTAP)
+      - Develop and maintain end2end tests (Jest, puppeteer)
+      - Develop and maintain infrastructure (AWS, Online/Scaleway, S3, Bare-metal, VMs)
+      - Develop Kubernetes deployments
+    link: https://spacefill.eu/
+  - name: Ecotiz / Joinly
+    position: Lead backend developper
+    dates: January 01, 2019 - September 27, 2019
+    description: |
+      Design and management of backend and infra at Ecotiz:
+      - Migration of old services (from PHP 5, NodeJS 8 and AngularJS) to a docker environment
+      - Refactor old APIs from NodeJS (with callback) and PHP to a fully async/await API
+      - Development of unit/integration/end2end tests (Jest, puppeteeer, Sinon.js)
+      - Setting up entire CI to lint/test/build/deploy services with Gitlab-CI
+      - Migration from an old infrastructure with manual deployment to a fully automated deployment (with Gitlab-CI/Ansible/Terraform/AWS/S3)
+    link: https://www.assoconnect.com/
+  - name: Scaleway
+    position: Fullstack DevOps developper
+    dates: January 01, 2018 - December 31, 2018
+    description: |
+      Conception of a service from scratch (CLI/Frontend/Backend/Deployment) used to deploy baremetal server on demand.
+      - Creation and management of the bare metal environment (servers) at Scaleway/Online. Golang API (JSON/gRPC)
+      - Develop and maintain unit, integration and end2end tests Python/Bash scripting
+      - Networking skills, including understanding of network protocols, network interface configuration, firewall setup, and security configuration (DHCP, NAT...)
+      - Knowledge of server hardware architecture, including understanding of different types of processors, memory, hard drives, and network cards.
+      - Proficiency in operating systems such as Linux and Windows, and the ability to install, configure, and manage these systems on Bare Metal servers automatically.
+      - Automation skills, including the ability to write scripts and use automation tools to automate provisioning tasks.
+      - Maintain legacy services in PHP
+    link: https://www.scaleway.com
+education:
+  - name: 42 Born To Code
+    dates: September 01, 2016 - December 31, 2018
+    description: |
+      School that train computer architects, providing autonomy and regularity.
+    link: https://42.fr
+  - name: Classes préparatoires
+    dates: September 01, 2015 - July 31, 2016
+    description: |
+      Post-secondary school (TSI),This brought me rigor and seriousness.
+    link: 
+volunteering:
+  - name: dotConferences
+    dates: November 01, 2017 - December 01, 2017
+    description: |
+      DotGo, November 6, and DotJS and DotCSS, November 30 and December 1st, help with setting up.
+    link: https://www.dotconferences.com/

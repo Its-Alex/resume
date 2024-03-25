@@ -3,4 +3,4 @@ set -e
 
 cd "$(dirname "$0")/../"
 
-typst watch cv_fr.typ
+typst watch "cv_${1}.typ"
