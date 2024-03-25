@@ -10,20 +10,22 @@ profile:
   position: Fullstack/DevOps Freelance
   address: Paris, 75011, France
   birthday: 03 Août 1997
-  email: pro.alexandre.marre@gmail.com
   links:
+    - name: pro.alexandre.marre@gmail.com
+      url: mailto:pro.alexandre.marre@gmail.com
+      icon: envelope-at-fill.svg
     - name: itsalex.fr
       url: https://itsalex.fr
-      icon: icons/globe.svg
+      icon: globe2.svg
     - name: Linkedin
       url: https://www.linkedin.com/in/its-alex/
-      icon: ""
+      icon: linkedin.svg
     - name: Github
       url: https://github.com/Its-Alex
-      icon: ""
+      icon: github.svg
     - name: Gitlab
       url: https://gitlab.com/ItsAlex
-      icon: ""
+      icon: gitlab.svg
 description: |
   Je suis Alexandre Marre passionné d'informatique depuis l\'enfance. J\'ai commencé à apprendre à la maison quand j\'avais seize ans. Rapidement, j\'ai développé un véritable amour pour ce domaine et j\'ai choisi d\'approfondir mes connaissances à l\'école. Cela m\'a conduit à une classe préparatoire et à l\'école 42. \
   Je suis un fervent partisan de l\'open source et je m\'efforce de contribuer et d\'aider les projets sur Github ou d\'autres plateformes chaque fois que possible. Je suis curieux et j\'aime apprendre et découvrir de nouvelles choses, ce qui fait de moi un touche-à-tout. J\'ai l\'habitude de travailler avec des méthodes agiles et de respecter les principes KISS et YAGNI.

@@ -1,4 +1,5 @@
 #import "components/title.typ": customTitle
+#import "components/link_with_icon.typ": linkWithIcon
 
 #let volunteering(title, volunteering) = [
   #customTitle(title)
@@ -29,7 +30,11 @@
         #eval(volunteeringItem.description, mode: "markup")
 
         #if type(volunteeringItem.link) == str [
-          #link(volunteeringItem.link)[#volunteeringItem.link]
+          #linkWithIcon(
+            "link.svg",
+            volunteeringItem.link,
+            volunteeringItem.link
+          )
         ]
       ]
     ])

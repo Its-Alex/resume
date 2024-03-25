@@ -1,4 +1,5 @@
 #import "components/title.typ": customTitle
+#import "components/link_with_icon.typ": linkWithIcon
 
 #let experiences(
   title,
@@ -33,7 +34,11 @@
           }
         )
         #text()[#eval(experience.description, mode: "markup")]
-        #link(experience.link)[#experience.link]
+        #linkWithIcon(
+          "link.svg",
+          experience.link,
+          experience.link
+        )
       ]
     ])
   )

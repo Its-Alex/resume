@@ -1,4 +1,5 @@
 #import "components/title.typ": customTitle
+#import "components/link_with_icon.typ": linkWithIcon
 
 #let education(title, education) = [
   #customTitle(title)
@@ -29,7 +30,11 @@
         #text()[#eval(educationItem.description, mode: "markup")]
 
         #if type(educationItem.link) == str [
-          #link(educationItem.link)[#educationItem.link]
+          #linkWithIcon(
+            "link.svg",
+            educationItem.link,
+            educationItem.link
+          )
         ]
       ]
     ])
