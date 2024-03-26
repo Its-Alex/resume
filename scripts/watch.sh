@@ -3,4 +3,4 @@ set -e
 
 cd "$(dirname "$0")/../"
 
-typst watch "cv_${1}.typ"
+typst watch "resume_${1}.typ"
