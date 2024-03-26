@@ -23,13 +23,13 @@
                 text(weight: 600)[#experience.name]
               },
               {
-                text(weight: 400, fill: rgb("7D7C80"))[#experience.position]
+                text(weight: 400, fill: rgb("6E6C70"))[#experience.position]
               }
             )
           },
           {
             grid.cell(align: right)[
-              #text(weight: 400, rgb("BCBABF"))[(#experience.dates)]
+              #text(weight: 400, rgb("9D9BA0"))[(#experience.dates)]
             ]
           }
         )
