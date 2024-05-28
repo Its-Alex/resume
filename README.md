@@ -30,7 +30,7 @@ $ ./scripts/watch.sh fr
 ```
 
 All datas are based from a `yaml` file, for example for the resume in french 
-[fr.yaml](/fr.yaml).
+[datas/fr.yaml](/datas/fr.yaml).
 
 For now only `french` resume is available.
 
