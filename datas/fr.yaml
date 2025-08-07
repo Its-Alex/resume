@@ -7,7 +7,7 @@ translations:
   volunteering: EXPÉRIENCES DE BÉNÉVOLAT
 profile:
   name: Alexandre Marre
-  position: Fullstack/DevOps Freelance
+  position: Senior Fullstack/DevOps
   address: Paris, 75002, France
   birthday: 03 Août 1997
   links:
@@ -53,7 +53,7 @@ interests:
   - Jeux vidéos
 experiences:
   - name: XXII
-    position: DevOps developper
+    position: Senior DevOps developper
     dates: 02 Mai, 2023 - ...
     description: |
       Gestion et maintenabilité du déploiement de XXII :
