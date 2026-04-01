@@ -33,7 +33,7 @@ skills:
   - name: Frontend
     description: Javascript, Typescript, React, Svelte, CSS, HTML
   - name: Backend
-    description: NodeJS, Golang, Python,  Bash, gRPC, GraphQL
+    description: NodeJS, Golang, Python, Bash, gRPC, GraphQL
   - name: Database
     description: PostgreSQL, MariaDB, MongoDB, Redis
   - name: DevOps
@@ -53,36 +53,36 @@ interests:
   - Jeux vidéos
 experiences:
   - name: XXII
-    position: Senior DevOps developper
+    position: Senior DevOps developer
     dates: 02 Mai, 2023 - ...
     description: |
       Gestion et maintenabilité du déploiement de XXII :
       - Mise en place de CI/CD (Gitlab-CI, ArgoCD, bash)
-      - Mise en place de bonne pratiques de code
-      - Mise en place et maintient d\'outils de monitoring (Grafana, Loki, Pyroscope, eBPF)
+      - Mise en place de bonnes pratiques de code
+      - Mise en place et maintenance d\'outils de monitoring (Grafana, Loki, Pyroscope, eBPF)
       - Développer et maintenir la stack Kubernetes (k0s, helm, tanka, golang)
-      - Développer et maintenir une distribution linux pour du déploiement automatique
-      - Permettre le déploiement onpremise dans des environments déconnectés d\'internet
+      - Développer et maintenir une distribution Linux pour du déploiement automatique
+      - Permettre le déploiement onpremise dans des environnements déconnectés d\'internet
     link: https://www.xxii.fr/
   - name: Spacefill
-    position: Senior fullstack developper
+    position: Senior fullstack developer
     dates: 30 Septembre, 2019 - 31 Mars, 2023
     description: |
       Conception, gestion et maintenabilité de Spacefill :
-      - Créer et maintenir le processus d\'onboarding pour permettre au développeur d\'être prêt en un ou deux jours
+      - Créer et maintenir le processus d\'onboarding pour permettre aux développeurs d\'être prêts en un ou deux jours
       - Créer des issues avec des spécifications détaillées qui peuvent être exécutées par n\'importe qui
       - Développement de fonctionnalités (Javascript, HTML, CSS, Python, Bash, React, PL/pgSQL, Docker, Ansible, Terraform, Gitlab-CI)
       - Développer et maintenir l\'environnement du développeur (monorepo, versioning des dépendances avec asdf (ou rtx) et Direnv, mise en place de VM locales)
       - Développer et maintenir la CI (build et déploiement de service, versioning de services, déploiement automatique, CI/CD) avec Gitlab-CI et serveurs bare-metal
       - Développer et maintenir des images docker (construction multi-arch sur plusieurs serveurs en CI, versioning)
       - Développer et maintenir des services (bases de données, migrations, web monorepo en JS avec esbuild)
-      - Développer et maintenir les tests unitaire (pgTAP)
+      - Développer et maintenir les tests unitaires (pgTAP)
       - Développer et maintenir les tests end2end (Jest, puppeteer)
       - Développer et maintenir l\'infrastructure (AWS, Online/Scaleway, S3, bare-metal, VMs, Ansible, Terraform)
       - Développer des déploiements Kubernetes
     link: https://spacefill.eu/
   - name: Ecotiz / Joinly
-    position: Lead backend developper
+    position: Lead backend developer
     dates: 01 Janvier, 2019 - 27 Septembre, 2019
     description: |
       Conception et gestion du backend et de l\'infra chez Ecotiz
@@ -93,7 +93,7 @@ experiences:
       - Migration d\'une ancienne infrastructure avec déploiement manuel vers un déploiement entièrement automatisé (avec Gitlab-CI/Ansible/Terraform/AWS/S3)
     link: https://www.assoconnect.com/
   - name: Scaleway
-    position: Fullstack DevOps developper
+    position: Fullstack DevOps developer
     dates: 01 Janvier, 2018 - 31 Décembre, 2018
     description: |
       Conception d\'un service from scratch (CLI/Frontend/Backend/Déploiement) permettant de déployer un serveur bare-metal à la demande.
