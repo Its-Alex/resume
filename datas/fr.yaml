@@ -57,12 +57,20 @@ experiences:
     dates: 02 Mai, 2023 - ...
     description: |
       Gestion et maintenabilité du déploiement de XXII :
-      - Mise en place de CI/CD (Gitlab-CI, ArgoCD, bash)
+      - Mise en place de CI/CD (Gitlab-CI, ArgoCD, Bash)
       - Mise en place de bonnes pratiques de code
       - Mise en place et maintenance d\'outils de monitoring (Grafana, Loki, Pyroscope, eBPF)
       - Développer et maintenir la stack Kubernetes (k0s, helm, tanka, golang)
-      - Développer et maintenir une distribution Linux pour du déploiement automatique
-      - Permettre le déploiement onpremise dans des environnements déconnectés d\'internet
+      - Développer et maintenir des services Python (FastAPI, SQLAlchemy), les tests unitaires (pytest, unittest) et les tests end-to-end (Playwright)
+      - Développer et maintenir les migrations de bases de données SQL
+      - Développer et maintenir des images Docker (build multi-arch sur plusieurs serveurs en CI, versioning)
+      - Développer et maintenir une distribution Linux pour le déploiement automatique
+      - Permettre le déploiement sur site dans des environnements déconnectés d\'Internet
+      - Migrer les manifests de déploiement de Helm vers Tanka (Jsonnet) service par service
+      - Construire et maintenir la stack d\'observabilité (Prometheus Agent, remote write, Alertmanager, Loki, tableaux de bord Grafana)
+      - Automatiser le provisionnement et la configuration des serveurs avec Ansible (UFW, Docker, VPN, monitoring)
+      - Gérer l\'infrastructure cloud avec OpenTofu (AWS EC2, S3, Google Compute Engine, GKE, VPC, GCS, etc.)
+      - Gérer des bases de données PostgreSQL sur serveurs bare-metal
     link: https://www.xxii.fr/
   - name: Spacefill
     position: Senior fullstack developer
@@ -72,12 +80,10 @@ experiences:
       - Créer et maintenir le processus d\'onboarding pour permettre aux développeurs d\'être prêts en un ou deux jours
       - Créer des issues avec des spécifications détaillées qui peuvent être exécutées par n\'importe qui
       - Développement de fonctionnalités (Javascript, HTML, CSS, Python, Bash, React, PL/pgSQL, Docker, Ansible, Terraform, Gitlab-CI)
-      - Développer et maintenir l\'environnement du développeur (monorepo, versioning des dépendances avec asdf (ou rtx) et Direnv, mise en place de VM locales)
+      - Développer et maintenir l\'environnement du développeur (monorepo, versioning des dépendances avec asdf et Direnv, mise en place de VM locales)
       - Développer et maintenir la CI (build et déploiement de service, versioning de services, déploiement automatique, CI/CD) avec Gitlab-CI et serveurs bare-metal
       - Développer et maintenir des images docker (construction multi-arch sur plusieurs serveurs en CI, versioning)
-      - Développer et maintenir des services (bases de données, migrations, web monorepo en JS avec esbuild)
-      - Développer et maintenir les tests unitaires (pgTAP)
-      - Développer et maintenir les tests end2end (Jest, puppeteer)
+      - Développer et maintenir des services (bases de données, migrations, web monorepo en JS avec esbuild), des tests unitaires (pgTAP), des tests end2end (Jest, puppeteer)
       - Développer et maintenir l\'infrastructure (AWS, Online/Scaleway, S3, bare-metal, VMs, Ansible, Terraform)
       - Développer des déploiements Kubernetes
     link: https://spacefill.eu/

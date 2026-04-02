@@ -59,20 +59,28 @@ experiences:
       - Establishment of coding best practices
       - Implementation and maintenance of monitoring tools (Grafana, Loki, Pyroscope, eBPF)
       - Developing and maintaining the Kubernetes stack (k0s, helm, tanka, golang)
+      - Developing and maintaining Python services (FastAPI, SQLAlchemy), unit tests (pytest, unittest), and end-to-end tests (Playwright)
+      - Developing and maintaining SQL database migrations
+      - Developing and maintaining Docker images (multi-arch builds across servers in CI, versioning)
       - Developing and maintaining a Linux distribution for automatic deployment
-      - Enabling on-premise deployment in disconnected internet environments.
+      - Enabling on-premises deployment in environments disconnected from the internet
+      - Migrating deployment manifests from Helm to Tanka (Jsonnet) service by service
+      - Building and maintaining the observability stack (Prometheus Agent, remote write, Alertmanager, Loki, Grafana dashboards)
+      - Automating server provisioning and configuration with Ansible (UFW, Docker, VPN, monitoring)
+      - Managing cloud infrastructure with OpenTofu (AWS EC2, S3, Google Compute Engine, GKE, VPC, GCS, etc.)
+      - Managing PostgreSQL databases on bare-metal servers
     link: https://www.xxii.fr/
   - name: Spacefill
     position: Senior fullstack developer
     dates: September 30, 2019 - March 31, 2023
     description: |
       Design, management, and maintainability of Spacefill:
-      - Create and maintain onboarding process to allow developers to be ready in one or two days
+      - Create and maintain the onboarding process to allow developers to be ready in one or two days
       - Create issues with detailed specifications that can be executed by anyone
       - Development of features (Javascript, HTML, CSS, Python, Bash, React, PL/pgSQL, Docker, Ansible, Terraform, Gitlab-CI)
       - Develop and maintain the developer's environment (monorepo, versioning of dependencies with asdf (or rtx) and Direnv, setup of local VMs)
       - Develop and maintain CI (build and deployment of service, versioning of services, automatic deployment, CI/CD) with Gitlab-CI and bare-metal servers
-      - Develop and maintain docker images (multi-arch build across servers in CI, versioning)
+      - Develop and maintain Docker images (multi-arch build across servers in CI, versioning)
       - Develop and maintain services (databases, migrations, web monorepo in JS with esbuild)
       - Develop and maintain unit tests (pgTAP)
       - Develop and maintain end2end tests (Jest, puppeteer)
