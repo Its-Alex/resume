@@ -46,7 +46,7 @@ languages:
   - name: English
     level: Fluent
 interests:
-  - Basket
+  - Basketball
   - Climbing
   - Gaming
 experiences:
@@ -102,9 +102,9 @@ experiences:
     position: Fullstack DevOps developer
     dates: January 01, 2018 - December 31, 2018
     description: |
-      Conception of a service from scratch (CLI/Frontend/Backend/Deployment) used to deploy baremetal server on demand.
+      Design of a service from scratch (CLI/Frontend/Backend/Deployment) to deploy a bare-metal server on demand.
       - Creation and management of the bare metal environment (servers) at Scaleway/Online. Golang API (JSON/gRPC)
-      - Develop and maintain unit, integration and end2end tests Python/Bash scripting
+      - Develop and maintain unit, integration, and end-to-end tests; Python/Bash scripting
       - Networking skills, including understanding of network protocols, network interface configuration, firewall setup, and security configuration (DHCP, NAT...)
       - Knowledge of server hardware architecture, including understanding of different types of processors, memory, hard drives, and network cards.
       - Proficiency in operating systems such as Linux and Windows, and the ability to install, configure, and manage these systems on Bare Metal servers automatically.

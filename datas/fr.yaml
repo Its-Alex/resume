@@ -50,7 +50,7 @@ languages:
 interests:
   - Basket
   - Escalade
-  - Jeux vidéos
+  - Jeux vidéo
 experiences:
   - name: XXII
     position: Senior DevOps developer
@@ -82,8 +82,8 @@ experiences:
       - Développement de fonctionnalités (Javascript, HTML, CSS, Python, Bash, React, PL/pgSQL, Docker, Ansible, Terraform, Gitlab-CI)
       - Développer et maintenir l\'environnement du développeur (monorepo, versioning des dépendances avec asdf et Direnv, mise en place de VM locales)
       - Développer et maintenir la CI (build et déploiement de service, versioning de services, déploiement automatique, CI/CD) avec Gitlab-CI et serveurs bare-metal
-      - Développer et maintenir des images docker (construction multi-arch sur plusieurs serveurs en CI, versioning)
-      - Développer et maintenir des services (bases de données, migrations, web monorepo en JS avec esbuild), des tests unitaires (pgTAP), des tests end2end (Jest, puppeteer)
+      - Développer et maintenir des images Docker (construction multi-arch sur plusieurs serveurs en CI, versioning)
+      - Développer et maintenir des services (bases de données, migrations, web monorepo en JS avec esbuild), des tests unitaires (pgTAP), des tests end-to-end (Jest, puppeteer)
       - Développer et maintenir l\'infrastructure (AWS, Online/Scaleway, S3, bare-metal, VMs, Ansible, Terraform)
       - Développer des déploiements Kubernetes
     link: https://spacefill.eu/
@@ -95,7 +95,7 @@ experiences:
       - Migration des anciens services (depuis PHP 5, NodeJS 8 et AngularJS) vers un environnement docker
       - Refactoriser les anciennes API de NodeJS (avec callback) et PHP vers une API entièrement async/await
       - Développement de tests unitaires/intégration/end2end (Jest, puppeteer, Sinon.JS)
-      - Mise en place de CI entiers pour lint/test/build/deploy services avec Gitlab-CI
+      - Mise en place de CI entières pour lint/test/build/deploy services avec Gitlab-CI
       - Migration d\'une ancienne infrastructure avec déploiement manuel vers un déploiement entièrement automatisé (avec Gitlab-CI/Ansible/Terraform/AWS/S3)
     link: https://www.assoconnect.com/
   - name: Scaleway
