@@ -11,8 +11,8 @@ profile:
   address: Paris, 75002, France
   birthday: 03 Août 1997
   links:
-    - name: pro.alexandre.marre@gmail.com
-      url: mailto:pro.alexandre.marre@gmail.com
+    - name: me+pro@itsalex.fr
+      url: mailto:me+pro@itsalex.fr
       icon: envelope-at-fill.svg
     - name: itsalex.fr
       url: https://itsalex.fr
