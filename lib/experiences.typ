@@ -9,16 +9,16 @@
   #grid(
     columns: (100%),
     gutter: 0pt,
-    row-gutter: 1.5em,
+    row-gutter: 1em,
     ..experiences.map((experience) => [
-      #block(breakable: false)[
+      #block(breakable: true)[
         #grid(
           columns: (40%, 60%),
           gutter: 0pt,
           {
             grid(
               columns: 100%,
-              gutter: 5pt,
+              gutter: 3pt,
               {
                 text(weight: 600)[#experience.name]
               },

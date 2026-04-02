@@ -2,12 +2,12 @@
   name
 ) = [
   #block(
-    above: 2em,
+    above: 1em,
   )[
     #grid(
       inset: (x: 0pt, y: 0pt),
       columns: (100%),
-      gutter: 6pt,
+      gutter: 3pt,
       {
         text(fill: rgb("BCBABF"), weight: 600)[#name]
       },

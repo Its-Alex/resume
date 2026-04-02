@@ -6,7 +6,7 @@
   #grid(
     columns: (100%),
     gutter: 0pt,
-    row-gutter: 1.5em,
+    row-gutter: 1em,
     ..volunteering.map((volunteeringItem) => [
       #block(breakable: false)[
         #grid(
@@ -15,7 +15,7 @@
           {
             grid(
               columns: 100%,
-              gutter: 5pt,
+              gutter: 3pt,
               {
                 text(weight: 600)[#volunteeringItem.name]
               }

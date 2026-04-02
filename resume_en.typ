@@ -10,7 +10,7 @@
 #let resume = yaml("datas/en.yaml")
 
 #set page(margin: (x: 0pt, y: 0pt))
-#set text(font: "Manjari", fill: rgb("3F3E40"))
+#set text(font: "Manjari", size: 10.5pt, fill: rgb("3F3E40"))
 #show link: link => {
   text(weight: 600)[#underline()[#link]]
 }
