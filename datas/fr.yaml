@@ -105,7 +105,7 @@ experiences:
       Conception d\'un service from scratch (CLI/Frontend/Backend/Déploiement) permettant de déployer un serveur bare-metal à la demande.
       - Création et gestion de l\'environnement bare-metal (serveurs) chez Scaleway/Online.
       - API Golang (JSON/gRPC) Script Python/Bash
-      - Compétences en réseautage, y compris la compréhension des protocoles réseau, la configuration de l\'interface réseau, la configuration du pare-feu et la configuration de la sécurité (DHCP, NAT...)
+      - Compétences réseau, y compris la compréhension des protocoles réseau, la configuration de l\'interface réseau, la configuration du pare-feu et la configuration de la sécurité (DHCP, NAT...)
       - Connaissance de l\'architecture matérielle des serveurs, y compris la compréhension des différents types de processeurs, de mémoire, de disques durs et de cartes réseau.
       - Maîtrise des systèmes d\'exploitation tels que Linux et Windows, et capacité à installer, configurer et gérer automatiquement ces systèmes sur des serveurs bare-metal.
       - Compétences en automatisation, y compris la capacité d\'écrire des scripts et d\'utiliser des outils d\'automatisation pour automatiser les tâches de provisionnement.
