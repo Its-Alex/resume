@@ -37,7 +37,7 @@ skills:
   - name: Database
     description: PostgreSQL, MariaDB, MongoDB, Redis
   - name: DevOps
-    description: Ansible, Terraform, Kubernetes, Github actions, Gitlab-CI, AWS, Scaleway, Vagrant, Tanka, Helm
+    description: Ansible, Terraform, Kubernetes, Github actions, Gitlab-CI, AWS, Google, Scaleway, Vagrant, Tanka, Helm
   - name: Tools
     description: Git, Direnv, mise, OpenCode, VSCode/Cursor
 languages:
